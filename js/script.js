@@ -12,10 +12,13 @@ document.addEventListener("keydown", function (e) {
 
   if (key === "1") {
     box1.innerText = "🙈";
+    box1.style.background = "aliceblue";
   } else if (key === "2") {
     box2.innerText = "🙉";
+    box2.style.background = "aliceblue";
   } else if (key === "3") {
     box3.innerText = "🙊";
+    box3.style.background = "aliceblue";
   }
 });
 
